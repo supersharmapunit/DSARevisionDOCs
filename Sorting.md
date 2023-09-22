@@ -22,6 +22,10 @@
     4. So we can conclude the fact that X is the largest element of the sorted area && the element  Y which is coming from the unsorted area is either bigger than X or equal to X (X≤Y this was the condition). Then it is self understood then is will also be bigger than the elements before X. eg →
         
         ![image](https://github.com/supersharmapunit/PlacementPrepDSA/assets/50194646/88f588e4-4b01-45fa-b846-e1874c955f25)
+        
+        
+        
+        ![Test Image](./sortingImages/image.png)
 
         
         So we can arrange or put Y just after X i.e we will swap 19 with 7 so our sorted will be expanded and unsorted region will shrink. And now X == 7. And we will repeat this process until X == arr.length-1.
